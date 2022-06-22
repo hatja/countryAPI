@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Services\ApiService;
+use App\Models\Capital;
 
 class SyncCapitals extends Command
 {
